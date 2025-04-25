@@ -15,7 +15,7 @@ This project demonstrates an **automated user account management script** for Li
 ##  Technologies Used
 
 - 🔹 **Bash Scripting** – Core automation logic  
-- 🔹 **Linux User Management Commands** – `id`, `usermod`, `userdel`, `chage`, `tar`, `grep`,`useradd` 
+- 🔹 **Linux User Management Commands** – `id`, `usermod`, `userdel`, `chage`, `tar`,`useradd` 
 - 🔹 **File System Management** – Ensures backups are safely stored in a specified directory  
 
 ---
