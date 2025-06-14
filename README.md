@@ -37,7 +37,7 @@ Ideal for **IT support teams** and **Linux system administrators** who need a st
    chmod +x user_manage.sh
    ```
 
-# II - # 🖥️ System Monitoring & Alert Script (Bash)
+# II - System Monitoring & Alert Script
 
 A simple and effective Bash script to **monitor CPU, memory, and disk usage** on a Linux system. When usage exceeds defined thresholds, alerts are logged to a file (or optionally sent via email or webhook).
 
