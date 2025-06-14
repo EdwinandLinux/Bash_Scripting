@@ -74,17 +74,17 @@ DISK_THRESHOLD=80
 LOG_FILE="./logs/monitor.log"
 ALERT_METHOD="log"  # Options: log
 ```
-## 2. Make the Script Executable
+## 3. Make the Script Executable
 ```
 chmod +x monitor.sh
 
 ```
-## 3 - Run the Script
+## 4 - Run the Script
 ```
 ./monitor.sh
 
  ```
- ## 4 - Automate with Cron 
+ ## 5 - Automate with Cron 
  Run every 5 minutes using cron:
 ```
  crontab -e
@@ -94,7 +94,7 @@ Add this line:
 */5 * * * * /home/youruser/monitoring_project/monitor.sh
 ```
 
-## 5 - 📝 Sample Log Output
+## 6 - 📝 Sample Log Output
 ```
 2025-06-13 09:05:00 - ALERT: High CPU Usage: 92.34%
 2025-06-13 09:10:00 - ALERT: High Memory Usage: 84.12%
