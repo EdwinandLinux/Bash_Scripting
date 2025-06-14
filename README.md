@@ -56,13 +56,13 @@ A simple and effective Bash script to **monitor CPU, memory, and disk usage** on
 ---
 
 ## 📂 Project Structure
-
+```
 monitoring_project/
 ├── monitor.sh # Main script
 ├── config.cfg # Thresholds and settings
 └── logs/
 └── monitor.log # Output log file
-
+```
 ## 2. Set Configuration Thresholds
 Edit config.cfg to define usage thresholds:
 ```
